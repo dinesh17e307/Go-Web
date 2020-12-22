@@ -1,0 +1,42 @@
+.tab{
+    margin-top: -80px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
+   }
+   .but{
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+  }
+  
+.mat-sidenav-container{
+    height: 100%;
+  }
+.mat-sidenav .mat-sidenav-content{
+    padding: 16px;
+  }
+  @media (max-width:968px){
+      
+.tab{
+          display:none;
+      }
+  }
+  .mat-sidenav{
+    background-color:gainsboro;
+    width:200px ;
+  }
+  .hidden{
+    display: none;
+  }
+  .spacer{
+    flex:1 1 auto;
+  }
+  .mat-toolbar a{
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 10px;
+
+    text-decoration: none;
+  }

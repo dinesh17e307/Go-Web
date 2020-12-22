@@ -1,0 +1,130 @@
+p {
+    font-family: Lato;
+  }
+  .tab{
+   margin-top: -80px;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: initial;
+  }
+  a{
+    color: black;
+  }.getit{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    padding: 2px;
+  }
+  .offer{
+    background-color: rgb(209, 202, 202);
+    font-family: gd-sage,"Times","Times New Roman",serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+   
+  }
+  .but{
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+  }
+  .but1{
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+  }
+  .icon{
+    position: relative;
+    display: block;
+  }
+  .drop{
+    display: none;
+    position: absolute;
+    background-color:lightgray;
+    min-width: 158px;
+    z-index: 1;
+  
+  }
+  .drop a:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  .icon:hover .drop{
+    display: block;
+  }
+  .icon:hover .but{
+    background-color: transparent;
+  }
+  .rig{
+    float: right;
+    margin-top: -100px;
+  }
+  .grid1{
+    background-image: url(https://www.teahub.io/photos/full/88-880026_web-design-images-hd.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .virat{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid2{
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/05/20/355019/fdd28f59a8d8f2260a8f50e461cc3102-1000.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid3{
+    background-image: url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .grid1:hover{
+     transform: rotateX(180deg);
+  }
+  .grid2:hover{
+     transform: rotateX(180deg);
+  }
+  .con{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+  }
+  .head{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .textbox{
+    background-image: url(https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    opacity: 0.5;
+    position: absolute;
+  }
+  .gif{
+    position: relative;
+  }
+  .intext{
+    display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    float: right;
+    font-size: xx-large;
+  }
+  .textbox:hover{
+    opacity: 1;
+  }
+  .textbox:hover  .intext{
+    display: block;
+  }
+  .taskbar{
+     background-color: rgba(12, 12, 216, 0.527);
+     opacity: 0.9;
+     color:black;
+  }
+  
