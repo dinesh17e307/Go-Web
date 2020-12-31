@@ -1,9 +1,62 @@
-.tab{
-    margin-top: -80px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: initial;
-   }
+p {
+    font-family: Lato;
+  }
+  .tab{
+   margin-top: -80px;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: initial;
+  }
+  a{
+    color: black;
+  }.getit{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    padding: 2px;
+  }
+  .offer{
+    background-color: rgb(209, 202, 202);
+    font-family: gd-sage,"Times","Times New Roman",serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+   
+  }
+
+  .icon{
+    position: relative;
+    display: block;
+  }
+  
+  .rig{
+    float: right;
+    margin-top: -100px;
+  }
+  
+  .grid1:hover{
+     transform: rotateX(180deg);
+  }
+  .con{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+  }
+  .head{
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .grid1:hover{
+     transform: rotateX(180deg);
+  }
+  .grid2:hover{
+     transform: rotateX(180deg);
+  }
+  
    .but{
     background-color: transparent;
     font-size: 20px;
@@ -17,7 +70,7 @@
 .mat-sidenav .mat-sidenav-content{
     padding: 16px;
   }
-  @media (max-width:968px){
+  @media  (max-width:968px){
       
 .tab{
           display:none;
@@ -33,10 +86,9 @@
   .spacer{
     flex:1 1 auto;
   }
-  .mat-toolbar a{
+  .mat-toolba a{
     display: inline-block;
     margin: 0 10px;
     margin-top: 10px;
-
     text-decoration: none;
   }

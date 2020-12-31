@@ -1,37 +1,39 @@
 <mat-sidenav-container >
-  <mat-sidenav #drawer 
-  
-  [ngClass]="{hidden:!(isHandset|async)!.matches}"  fixedInViewport="false" 
-  [attr.role]="!isHandset ?'dialog':'navigation'"
-  [mode]="!(isHandset | async)!.matches?'over':'side'"
-  [opened]="!(isHandset | async)!.matches">
-    
-  <mat-nav-list>
-    <mat-icon>home</mat-icon><button  mat-button >Home</button><br>
-    <mat-icon>contact_mail</mat-icon><button  mat-button >Contact us</button><br>
-    <mat-icon>book</mat-icon><button  mat-button >About</button><br>
-    <mat-icon>list_alt</mat-icon><button  mat-button >projects</button><br>
-    <mat-icon>login</mat-icon><button  mat-button >Login</button>
-   
-  </mat-nav-list>
-  </mat-sidenav>
+    <mat-sidenav #drawer 
+    [(opened)]="opened">
+      
+    <mat-nav-list>
+      <mat-icon>home</mat-icon><button  mat-button >Home</button><br>
+      <mat-icon>contact_mail</mat-icon><button  mat-button >Contact us</button><br>
+      <mat-icon>book</mat-icon><button  mat-button routerLink="/about" >About</button><br>
+      <mat-icon>list_alt</mat-icon><button  mat-button >projects</button><br>
+      <mat-icon>login</mat-icon><button  mat-button >Login</button>
+     
+    </mat-nav-list>
+    </mat-sidenav>
     <mat-sidenav-content>
-    <div color="primary" class="mat-toolbar"><table><tr><td><button type="button"  mat-icon-button (click)="drawer.toggle()" *ngIf="(isHandset | async)!.matches" > 
-      <mat-icon>menu</mat-icon>  </button ></td><td><img  width="200" heigth="100" src="https://i.ibb.co/J55zPLH/56790835-259719721486836-8181305012547223552-n-removebg-preview.png" alt="">
-    </td></tr></table>
-      <span  class="spacer "></span>
-      <table cellpadding="10px" class="tab">
-        <tr><td  colspan="2" rowspan="2"></td>
-        <td ><mat-icon>home</mat-icon><button class="but" mat-button >Home</button>
-        </td>
-       <td > <mat-icon>contact_mail</mat-icon><button class="but" mat-button >Contact us</button>
-        </td><td ><mat-icon>book</mat-icon><button class="but" mat-button >About</button>
-        </td><td ><mat-icon>list_alt</mat-icon><button class="but" mat-button >projects</button>
-        </td>
-         <td ><mat-icon>login</mat-icon><button class="but" mat-button >Login</button>
-        </td></tr>
-            </table>
-          </div>
-<app-home></app-home>
-    </mat-sidenav-content>
-</mat-sidenav-container>
+        <div color="primary" class="mat-toolba"><table><tr><td><button type="button"  mat-icon-button (click)="drawer.toggle()" *ngIf="(isHandset | async)!.matches" > 
+          <mat-icon>menu</mat-icon>  </button ></td><td><img  width="200" heigth="100" src="https://i.ibb.co/J55zPLH/56790835-259719721486836-8181305012547223552-n-removebg-preview.png" alt="">
+        </td></tr></table>
+          <span  class="spacer "></span>
+          <table cellpadding="10px" class="tab">
+            <tr><td  colspan="2" rowspan="2"></td>
+            <td ><mat-icon>home</mat-icon><button class="but" mat-button  routerLink="/home"  >Home</button>
+            </td>
+           <td > <mat-icon>contact_mail</mat-icon><button class="but" mat-button >Contact us</button>
+            </td><td ><mat-icon>book</mat-icon><button class="but" mat-button routerLink="/about"  >About</button>
+            </td><td ><mat-icon>list_alt</mat-icon><button class="but" mat-button >projects</button>
+            </td>
+             <td ><mat-icon>login</mat-icon><button class="but" mat-button >Place Order</button>
+            </td></tr>
+                </table>
+              </div>
+              <router-outlet></router-outlet>
+        </mat-sidenav-content>
+  </mat-sidenav-container>
+  
+
+<app-footer></app-footer>
+
+
+
