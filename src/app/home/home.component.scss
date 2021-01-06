@@ -46,13 +46,15 @@ p {
      transform: rotateX(180deg);
   }
   .con{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman';
     font-style: italic;
-    font-size: large;
+    font-size: 25px;
+    
   }
+
   .head{
-    font-size: xx-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   .grid1:hover{
@@ -61,5 +63,7 @@ p {
   .grid2:hover{
      transform: rotateX(180deg);
   }
-  
+  .center{
+    text-align: center;
+  }
   

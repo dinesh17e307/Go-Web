@@ -1,0 +1,64 @@
+ <div class="container"
+  layout="row"
+  fxLayout.gt-xs="row"
+  fxLayout.xs="column"
+  FxlayoutGap="10px">
+<mat-card fxFlex="50">
+<mat-card-header>
+    <mat-card-title>
+        Mail Query
+    </mat-card-title>
+</mat-card-header>
+<mat-card-content>
+<form   >
+    <label>
+        Name:</label>
+    <mat-form-field class="half-width" >
+    
+        <input type="text" matInput >
+    </mat-form-field>
+    <label>
+        email:</label>
+    <mat-form-field  >
+      
+        <input type="text" matInput  placeholder="dinesh@gmail.com">
+       </mat-form-field><br>
+       <label>
+        website name:</label>
+    <mat-form-field class="full-width">
+     
+        <input type="text" matInput  placeholder="goweb.com">
+       </mat-form-field>
+       
+<label for="">Tel.Phone:</label>
+       <mat-form-field class="half-width">
+     
+        <input type="text" matInput  placeholder="8489915880">
+       </mat-form-field>
+       <label for="">Your Buisness:</label>
+       <mat-form-field class="half-width">
+     
+        <input type="text" matInput  placeholder="online shopping">
+       </mat-form-field><br>
+      <button  mat-button >Submit</button>
+   
+</form>
+</mat-card-content>
+</mat-card>
+<mat-card fxFlex="50">
+    <mat-card-header>
+        <mat-card-title>
+            Our Address
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <address style="font-size: 100%">
+            121, Bungala thottam <br> periyakulam, sathyamangalam<br> ERODE<br>
+            <mat-icon>phone</mat-icon>: +91 8489915880<br>
+            <mat-icon>book</mat-icon>: +852 8765 4321<br>
+            <mat-icon>mail</mat-icon>:
+            <a href="mailto:dheena5880n@gmail.com">dheena5880@gmail.com</a>
+          </address>
+    </mat-card-content>
+</mat-card>
+</div>

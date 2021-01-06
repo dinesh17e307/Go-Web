@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-placeorder',
   templateUrl: './placeorder.component.html',
@@ -11,5 +10,5 @@ export class PlaceorderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+ 
 }

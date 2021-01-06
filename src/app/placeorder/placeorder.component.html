@@ -1,1 +1,54 @@
-<p>placeorder works!</p>
+<div class="container"
+  layout="row"
+  fxLayout.gt-xs="row"
+  fxLayout.xs="column"
+  FxlayoutGap="10px">
+<mat-card fxFlex=50>
+  <mat-card-header>
+    <mat-card-title>
+      Website Creation Submission form
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form action="https://formspree.io/f/mknpkggk" method="post">
+  <mat-form-field class="full-width" >
+    <mat-label>
+      Name</mat-label>
+      <input type="text" matInput placeholder="dinesh"  name="FirstName">
+  </mat-form-field> <br>
+  <mat-form-field  class="full-width" >
+    <mat-label>Email</mat-label>
+      <input type="email" matInput  placeholder="dinesh@gmail.com" name="Email">
+     </mat-form-field><br>
+
+  <mat-form-field class="full-width">
+   <mat-label>Phone Number</mat-label>
+      <input type="number" matInput  placeholder="9865337765" name="Phone NUmber">
+     </mat-form-field><br>
+     
+
+     <mat-form-field class="half-width">
+   <mat-label>D.O.B</mat-label>
+      <input type="date" matInput  name="DOB">
+     </mat-form-field>
+    
+     <mat-form-field class="half-width">
+   <mat-label>Age</mat-label>
+      <input type="number" matInput  placeholder="65" name="Age">
+     </mat-form-field><br>
+     
+     <mat-form-field class="full-width">
+      <mat-label>Buisness place</mat-label>
+         <input type="text" matInput  placeholder="sathyamangalam" name=" Buisness Place">
+        </mat-form-field><br>
+    <button  mat-button >Submit</button>
+                  
+</form>
+</mat-card-content>
+</mat-card>
+<mat-card fxFlex="50">
+
+  <img src="https://www.guesty.com/wp-content/uploads/2019/06/cut-to-size9.jpg" alt="" width="700px" height="400px">
+
+</mat-card>
+</div>
