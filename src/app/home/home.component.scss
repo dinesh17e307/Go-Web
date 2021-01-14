@@ -53,7 +53,7 @@ p {
    
     
   }
-
+.o
   .head{
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
@@ -68,4 +68,6 @@ p {
   .center{
     text-align: center;
   }
- 
+ .ani:hover{
+  transform: rotate3d(1, 1, 1, 270deg);
+ }

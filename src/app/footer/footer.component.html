@@ -12,7 +12,8 @@ fxLayoutGap="10px">
 <mat-list-item > <a  mat-button   routerLink="/project">Projects</a></mat-list-item>
 <mat-list-item > <a  mat-button  routerLink="/about">About</a></mat-list-item>
 <mat-list-item > <a   mat-button routerLink="/placeorder">PlaceOrder</a></mat-list-item>
-<mat-list-item > <a  mat-button  routerLink="/">Logout</a></mat-list-item>
+<mat-list-item > <a   mat-button routerLink="/logout">Logout</a></mat-list-item>
+<mat-list-item > <a   mat-button routerLink="/placeorder" ></a></mat-list-item>
     <mat-list-item><img  width="200" heigth="100"
       src="https://i.ibb.co/J55zPLH/56790835-259719721486836-8181305012547223552-n-removebg-preview.png" alt=""></mat-list-item>
   </mat-list>
@@ -35,8 +36,8 @@ fxLayoutGap="10px">
     <mat-list-item ><a href="https://www.facebook.com/profile.php?id=100012133861608"><mat-icon>facebook</mat-icon>Facebook</a></mat-list-item>
     <mat-list-item > <a href="Mailto:dheena5880@gmail.com"><mat-icon>mail</mat-icon>Mail</a></mat-list-item>
     <mat-list-item ><mat-icon>share</mat-icon> <a href="">Whatsapp</a></mat-list-item>
-    <mat-list-item ><a href="https://www.facebook.com/profile.php?id=100012133861608"><mat-icon></mat-icon>Terms and condition</a></mat-list-item>
-    <mat-list-item > <a href="Mailto:dheena5880@gmail.com"><mat-icon></mat-icon>policy</a></mat-list-item>
+    <mat-list-item ><a mat-button (click)="opendialog()"><mat-icon></mat-icon>Terms and condition</a></mat-list-item>
+    <mat-list-item > <a  mat-button (click)="opendialog()"><mat-icon>book</mat-icon>policy</a></mat-list-item>
     <mat-list-item > <a href="https://naturalpicsdinesh.blogspot.com"><mat-icon>blog</mat-icon>blog</a></mat-list-item>
     <mat-list-item ><mat-icon></mat-icon> <a href="">goweb</a></mat-list-item>
     

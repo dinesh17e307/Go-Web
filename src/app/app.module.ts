@@ -22,7 +22,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ProjectsComponent } from './projects/projects.component';
-
+import { LogoutComponent } from './logout/logout.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { DialogComponent } from './dialog/dialog.component';
 
 
 @NgModule({
@@ -35,15 +37,20 @@ import { ProjectsComponent } from './projects/projects.component';
     HeaderComponent,
     FooterComponent,
     ContactusComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    LogoutComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,MatSliderModule,MatButtonModule,MatGridListModule,
-    MatListModule,MatIconModule,MatSidenavModule,MatToolbarModule,FlexLayoutModule,MatCardModule,MatInputModule
+    MatListModule,MatIconModule,MatSidenavModule,MatToolbarModule,FlexLayoutModule,MatCardModule,MatInputModule,MatDialogModule
   ],
   providers: [],
+  entryComponents: [
+    DialogComponent
+],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
